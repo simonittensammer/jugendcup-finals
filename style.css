@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #B3350B;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+input:not(#cup) {
+    border: none;
+
+    background: white;
+    color: #B3350B;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.center {
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%,0);
+}
+
+.left {
+    position: absolute;
+    left: 25vw;
+    transform: translate(-50%,0);
+}
+
+.right {
+    position: absolute;
+    left: 75vw;
+    transform: translate(-50%,0);
+}
+
+#cup {
+    color: #B3350B;
+    top: 2.5vh;
+    background: white;
+    padding: 10px;
+    width: 100vw;
+    border: none;
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+#finale1 {
+    top: 15vh;
+    color: white;
+    font-size: 50px;
+}
+
+#winner1 {
+    top: 25vh;
+}
+
+.finalist1 {
+    top: 40vh;
+}
+
+#finale2 {
+    top: 55vh;
+    color: white;
+    font-size: 50px;
+}
+
+#winner2 {
+    top: 65vh;
+}
+
+.finalist2 {
+    top: 80vh;
+}
